@@ -1,6 +1,5 @@
 import * as React from "react";
-
-import StarIcon from "@mui/icons-material/Star";
+import { FaStar } from "react-icons/fa"; 
 import { TbExternalLink } from "react-icons/tb";
 
 export default function MainPage() {
@@ -35,11 +34,11 @@ export default function MainPage() {
         </div>
         <div className="quote-main-page-section">
           <div style={{ paddingBottom: "10px", color: "white" }}>
-            <StarIcon style={{ color: "white" }} />
-            <StarIcon style={{ color: "white" }} />
-            <StarIcon style={{ color: "white" }} />
-            <StarIcon style={{ color: "white" }} />
-            <StarIcon style={{ color: "white" }} />
+            <FaStar style={{ color: "white" }} />
+            <FaStar style={{ color: "white" }} />
+            <FaStar style={{ color: "white" }} />
+            <FaStar style={{ color: "white" }} />
+            <FaStar style={{ color: "white" }} />
           </div>
           <p>“Благодаря этой программе, мое дело начало расти”</p>
         </div>
